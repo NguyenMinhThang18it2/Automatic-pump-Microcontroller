@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ngày bơm: "
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-medium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số lần bơm: "
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtThoigianbom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14/7/2020"
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-medium"/>
+            <TextView
+                android:id="@+id/txtSolanbomtrongngay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14 lần "
+                android:textSize="28sp"
+                android:fontFamily="sans-serif-medium"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="#A1A1A1"/>
+</LinearLayout>

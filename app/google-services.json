@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "659932248814",
+    "firebase_url": "https://maybomnuoc-ee987.firebaseio.com",
+    "project_id": "maybomnuoc-ee987",
+    "storage_bucket": "maybomnuoc-ee987.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659932248814:android:9e89cf9d02525ff99911ff",
+        "android_client_info": {
+          "package_name": "thang.com.maybomnuoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659932248814-04satvjp8rnmc2r5ivlsd6upn502e40i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxMPSwGvlk6JJabhnAQ8HSGKMUC1oF5CE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659932248814-04satvjp8rnmc2r5ivlsd6upn502e40i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
